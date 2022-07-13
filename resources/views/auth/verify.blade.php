@@ -25,4 +25,5 @@
         </div>
     </div>
 </div>
+@include('flotantes.redesSociales') 
 @endsection

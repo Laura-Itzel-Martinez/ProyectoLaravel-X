@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<br><br><br><br><br>
+<br><br><br><br>
 <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 
 <div class="wrapper fadeInDown">
@@ -10,7 +10,7 @@
 
         <!-- Icon -->
         <div class="fadeIn first">
-            <img src=""  href="curso.php" style="width: 450px;height:fit-content"/>
+            <img src="{{asset('img/logo.jpg')}}"  href="curso.php" style="width:400px;height:fit-content"/>
             <h1>Bienvendo al mundo nahuatl</h1>
         </div>
 
@@ -78,5 +78,5 @@
         </div>
     </div>
 </div>
-
+@include('flotantes.redesSociales') 
 @endsection
